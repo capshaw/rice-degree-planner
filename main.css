@@ -1,0 +1,187 @@
+body{
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:#111 url('px_by_Gre3g.png');
+}
+
+#board{
+	min-height:530px;
+	background:#ccc;
+	border-radius:20px;
+	width:90%;
+	margin:auto;
+}
+
+.title{
+	background-color:#333;
+	text-align:center;
+	color:#fff;
+	padding:5px;
+}
+
+.fresh{
+	background:#FF979A;
+}
+
+.soph{
+	background:#FFF9CA;
+	color:#111;
+}
+
+.junior{
+	background:#A8FEAC;
+	color:#111;
+}
+
+.senior{
+	background:#98FEFF;
+}
+
+.grad{
+	background:#fff;
+	color:#111;
+}
+
+#s1 .title, #s2 .title{
+	background:#FC5356;
+}
+
+#s3 .title, #s4 .title{
+	background:#FCF153;
+	color:#111;
+}
+
+#s5 .title, #s6 .title{
+	background:#53C957;
+	color:#111;
+}
+
+#s7 .title, #s8 .title{
+	background:#2075C9;
+}
+
+#s1, #s2, #s3, #s4, #s5, #s6, #s7, #s8{
+	min-height:500px;
+	border-right:1px solid #ccc;
+	width:12%;
+	float:left;
+	background:#eee;
+}
+
+
+#s1-2, #s2-2, #s3-2, #s4-2, #s5-2, #s6-2, #s7-2, #s8-2{
+	min-height:30px;
+	border-right:1px solid #fff;
+	width:12%;
+	float:left;
+	background:#aaa;
+	color:#fff;
+	font-weight:bold;
+}
+
+.in{
+	line-height:30px;
+	text-align:center;
+	margin:auto;
+}
+
+.loading{
+	width:90%;
+	padding:10px;
+	background:#eee;
+	border:1px solid #111;
+	font-size:1.2em;
+
+	opacity:0.9;
+	color:#111;
+	margin:auto;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.major{
+	min-height:200px;
+	background:#eee;
+	border-radius:20px;
+	width:90%;
+	margin:auto;
+}
+
+*[draggable=true]{
+	float:left;
+	margin: 7px;
+	border-radius:10px;
+	border: 1px solid #aaa;	
+	font-size:0.9em;
+	padding:7px;
+}
+
+.twopercent{
+	width:1%;
+	height:530px;
+}
+
+#board *[draggable=true]{
+	float:left;
+	width:100%;
+	padding-left:0px;
+	padding-right:0px;
+	height:50px;
+	margin: 0px;
+	border-radius:0px;
+	border: 0px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	font-size:0.9em;
+}
+
+#board .cardTitle{
+	line-height:50px;
+	text-align:center;
+}
+
+.cardTitle{
+	line-height:20px;
+	text-align:center;
+}
+
+h1{
+	text-align:center;
+	margin-top:0px;
+	padding-top:10px;
+	font-size:2.5em;
+}
+
+h2{
+	text-align:center;
+	padding-top:10px;
+}
+
+.headers{
+	color:#fff;
+	margin-top:0px;
+	width:90%;
+	margin:auto;
+}
+
+a{
+	color:#fff;
+	font-weight:bold;
+}
+
+select{
+	padding:5px;
+	border:1px solid #111;
+}
+
+.graduation div{
+	line-height:530px;
+}
+
+li{
+	list-style-type:none;
+}
+
+.graduation{
+	line-height:450px;
+	color:#fff;
+	text-align:center;
+}
